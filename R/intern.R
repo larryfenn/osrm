@@ -203,7 +203,7 @@ rgrid <- function(loc, dmax, res){
 ## osrmTable Utils
 distTableFormat <- function(res, src, dst){
   # extract distance table
-  mat <- res$distance
+  mat <- res$distances
   # From sec to minutes
   mat <- round(mat/(60), 1)
   # NA management
